@@ -1,0 +1,103 @@
+.bg-image-intre {
+    background-image: url("../img/01.png");
+    background-color: black;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.bg-shadow {
+    background-color: rgba(20, 14, 43, 0.5);
+}
+
+.bg-image-between2 {
+    background-image: url("../img/03.png");
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-image-between1 {
+    background-image: url("../img/02.jpg");
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.hover-1 {
+    position: relative;
+
+}
+
+
+.hover-1:hover {
+        background-color: #A2936D;
+        color: white;
+    
+}
+
+.hover-2 {
+    position: relative;
+}
+
+.hover-2:hover {
+        background-color: white;
+        color: black ;
+}
+
+.colorr {
+    color: #87A8EB;
+}
+
+
+
+
+@keyframes hover-1 {
+    0% {
+        width: 0;
+        height: 0;
+    }
+    50% {
+        width: 106px;
+        height: 2px;
+    }
+    75% {
+        width: 0;
+        height: 0;
+    }
+    100% {
+        width: 0;
+        height: 0;
+    }
+
+}
+
+.gradient-btn {
+    background: linear-gradient(90deg, #7b9ef8 0%, pink 100%);
+}
+
+.transform {
+    transition: transform 0.3s ease;
+}
+
+.transform:hover {
+    transform: scale(1.1);
+}
+
+.transform1-2 {
+    transition: transform 0.3s ease;
+}
+
+.transform1-2:hover {
+    transform: scale(1.2);
+}
+
+.transformY1-5 {
+    transition: transform 0.3s ease;
+}
+
+.transformY1-5:hover {
+    transform: scaleY(1.5);
+}
